@@ -4,5 +4,6 @@
   "main": "index.js",
   "author": "hibukki <myselfandfredy@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "packageManager": "yarn@3.5.1"
 }
