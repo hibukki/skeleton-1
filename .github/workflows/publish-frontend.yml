@@ -15,7 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      # Run a build step here if your project requires
       - name: build
         uses: actions/setup-node@v3
         with:
