@@ -19,8 +19,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
-        - run: yarn install --immutable
-        - run: yarn workspace frontend build
+      - run: yarn install --immutable
+      - run: yarn workspace frontend build
 
       - name: Publish to Cloudflare Pages only if push
         if: github.event_name == 'push' # Otherwise it will just verify it builds
